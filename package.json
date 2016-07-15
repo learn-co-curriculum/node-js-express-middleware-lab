@@ -1,0 +1,33 @@
+{
+  "name": "node-js-express-middleware-lab",
+  "version": "0.1.0",
+  "description": "Test your understanding of Express middleware on Learn",
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/node-js-express-middleware-lab.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/node-js-express-middleware-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/node-js-express-middleware-lab#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^2.5.3",
+    "mocha-multi": "^0.9.0"
+  }
+}
